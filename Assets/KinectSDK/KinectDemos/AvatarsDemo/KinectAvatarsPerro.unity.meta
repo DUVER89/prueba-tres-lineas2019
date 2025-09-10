@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8123c4832260ee64eb6bcea3e2a0009c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 7747
+  packageName: Kinect with MS-SDK
+  packageVersion: 1.12
+  assetPath: Assets/AvatarsDemo/KinectAvatarsDemo.unity
+  uploadId: 48550

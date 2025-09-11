@@ -444,7 +444,7 @@ public class KinectGestures
 
 			// check for Click
 			case Gestures.Click:
-                KinectCursor.Instance.SimularClick();
+                PerroAnimacionesKinect3D.instancia.SimularClick();
                 switch (gestureData.state)
 				{
 					case 0:  // gesture detection - phase 1

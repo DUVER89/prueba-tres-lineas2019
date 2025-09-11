@@ -616,6 +616,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509515566}
   m_CullTransparentMesh: 0
+--- !u!4 &515529498 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400032, guid: ed1c50b3cebc9374f9da79ca55dd4e4b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1381129588}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &533495431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,7 +1072,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.326242, y: 4.04601, z: 0.2}
+  m_Size: {x: 5.326242, y: 4.04601, z: 0.47168684}
   m_Center: {x: 1.312576, y: -3.376995, z: 0}
 --- !u!114 &736237038
 MonoBehaviour:
@@ -1082,7 +1088,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombresAnimaciones:
   - Salto
-  origenRayo: {fileID: 1383031972}
+  - Reposo
+  origenRayo: {fileID: 515529498}
   nombreObjetoMano: ManoDerecha
   mascaraCapas:
     serializedVersion: 2

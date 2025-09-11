@@ -963,6 +963,8 @@ GameObject:
   - component: {fileID: 736237036}
   - component: {fileID: 736237035}
   - component: {fileID: 736237034}
+  - component: {fileID: 736237037}
+  - component: {fileID: 736237038}
   m_Layer: 0
   m_Name: perro
   m_TagString: Untagged
@@ -980,7 +982,7 @@ Animator:
   m_GameObject: {fileID: 736237033}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4e98cd52308fbf241abd0299d53f367b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4dc36756d9eef724ca63403266439318, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1053,6 +1055,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &736237037
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736237033}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.326242, y: 4.04601, z: 0.2}
+  m_Center: {x: 1.312576, y: -3.376995, z: 0}
+--- !u!114 &736237038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736237033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47cec1779dbb0124bb4daf9b224d2a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombresAnimaciones:
+  - Salto
+  origenRayo: {fileID: 1383031972}
+  nombreObjetoMano: ManoDerecha
+  mascaraCapas:
+    serializedVersion: 2
+    m_Bits: 1
+  distanciaRayo: 5
+  mostrarLogs: 0
+  usarFallbackPorDistancia: 1
+  distanciaFallback: 0.5
 --- !u!1 &919460778
 GameObject:
   m_ObjectHideFlags: 0
